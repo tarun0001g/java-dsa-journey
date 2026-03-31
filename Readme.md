@@ -18,3 +18,4 @@ To master DSA and improve problem-solving skills.
 Shortcut of System.out.println() ---> syso + tab 
 ## Pending Problems
 - Write a function that calculates the Greatest Common Divisor of 2 numbers. (BONUS)
+- 2D array practice pbs
