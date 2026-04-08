@@ -1,4 +1,4 @@
-public class StringMethods {
+public class StringIntro {
   public static void main(String[] args) {
       String firstName = "Tarun";
       String lastName = "Tarun";
