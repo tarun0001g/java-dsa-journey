@@ -1,6 +1,8 @@
 
+import java.util.Scanner;
 
-public class StringBuilder {
+
+public class StringBuilderDemo {
   public static void main(String[] args) {
       StringBuilder sb = new StringBuilder("Alex");
       System.out.println(sb);
@@ -30,5 +32,20 @@ public class StringBuilder {
 
       //length of String
       System.out.println(sb.length());
+
+      //NOTE: sb.length() → It tells total number of characters inside StringBuilder.
+      // arr.length → It tells how many elements the array can store.
+
+      //We can directly get input in the stringBuilder
+      Scanner sc = new Scanner(System.in);
+      sb.append(sc.nextLine());
+
+      //------MOST COMMON IN INTERRVIEWS---------------------------------
+      // String input = sc.nextLine();
+      // StringBuilder sb = new StringBuilder(input); //No need of loop to append
+
+      //----FIND THE INDEX OF CHARACTER:-> sb.indexOf() -----------
+      // int fromIndex = sb.indexOf("@");
   }
 }
+      
