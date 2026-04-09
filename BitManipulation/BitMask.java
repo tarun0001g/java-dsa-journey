@@ -4,17 +4,17 @@ package BitManipulation;
 public class BitMask {
   public static void main(String[] args) {
     
-      // int n=5; //Given Number //Binary:0101 (5)
-      // int pos=1; //Given Position
-      // int bitMask = 1<<pos; //Always use left shift in bit masking ops
+      int n=5; //Given Number //Binary:0101 (5)
+      int pos=2; //Given Position 1<<2 -> 0100
+      int bitMask = 1<<pos; //Always use left shift in bit masking ops
 
-      //Get - Bit Masking
-      // if((bitMask & n) == 0) { //Binary Multiplication: 0100 AND 0101
-      //   System.out.println("The number was zero(0)");
-      // }
-      // else{
-      //   System.out.println("The number was one(1)");
-      // }
+      // Get - Bit Masking
+      if((bitMask & n) == 0) { //Binary Multiplication: 0100 AND 0101
+        System.out.println("The number was zero(0)");
+      }
+      else{
+        System.out.println("The number was one(1)");
+      }
 
       //Set - Bit Masking : sets 1 at given position(pos) (i)
       // int newNumber = n | bitMask; //0101 OR 0010 ---> 0111
@@ -37,11 +37,11 @@ public class BitMask {
       // int newNumber = n & notBitMAsk; // 0101 * 1110 = 0100(4)
       // System.out.println(newNumber);
       //make 1 (set) to position 3
-      int n=5; //0101
-      int pos = 3; 
-      int bitMask = 1 << pos;
-      int newNumber = n | bitMask ;
-      System.out.println(newNumber);
+      // int n=5; //0101
+      // int pos = 3; 
+      // int bitMask = 1 << pos;
+      // int newNumber = n | bitMask ;
+      // System.out.println(newNumber);
 
   }
 }

@@ -18,10 +18,6 @@ To master DSA and improve problem-solving skills.
 Shortcut of System.out.println() ---> syso + tab 
 ## Pending Problems
 
-- 2D array practice pbs
-- String Homewrok Problems
-- String Builder Homewrok Problems
-
 Homework Problems
 Write a program to find if a number is a power of 2 or not.
 Write a program to toggle a bit a position = “pos” in a number “n”.
