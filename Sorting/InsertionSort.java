@@ -1,3 +1,4 @@
+package Sorting;
 public class InsertionSort {
   public static void main(String[] args) {
       //In this method we divide array into two parts: Sorted and Unsorted

@@ -19,7 +19,8 @@ Shortcut of System.out.println() ---> syso + tab
 ## Pending Problems
 Write 2 functions => decimalToBinary() & binaryToDecimal() to convert a number from one number system to another. [BONUS]
 - Insertion sort
-
+- find power of number
+- find factorial 
 ## Favourite Problems:-
 - Spiral Matrix 
 

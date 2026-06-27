@@ -1,3 +1,4 @@
+package Sorting;
 public class SelectionSort {
   public static void main(String[] args) {
       //In This method we looks for smallet element from an array, it is opposite of buttble sort
