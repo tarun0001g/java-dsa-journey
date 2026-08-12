@@ -6,7 +6,7 @@ public class TwoSum {
       int[] nums = {2, 7, 11, 15};
       int target = 9;
 
-    HashMap<Integer,Integer> freq = new HashMap<>();
+  HashMap<Integer,Integer> freq = new HashMap<>();
 
     for(int i=0; i<nums.length; i++){
       //formula
