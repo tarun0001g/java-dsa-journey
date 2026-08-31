@@ -33,9 +33,9 @@ public class isArmstrong {
 
         // check isArmstrong
         while(n !=0 ){
-            int digit = n % 10; 
+            int digit = n % 10;  // It returns the last digit of n
             sum = sum + (int) Math.pow(digit, count);
-            n /= 10;
+            n /= 10; // It removes last digit from n
         }
         return sum==originalNum;
   }

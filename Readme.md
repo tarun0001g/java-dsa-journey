@@ -21,6 +21,7 @@ Write 2 functions => decimalToBinary() & binaryToDecimal() to convert a number f
 - Insertion sort
 - find power of number
 - find factorial 
+- Pending Optimize solution of FindPairForSumFromArray
 ## Favourite Problems:-
 - Spiral Matrix 
 

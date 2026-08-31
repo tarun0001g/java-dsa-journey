@@ -2,6 +2,9 @@ import java.util.Scanner;
 
 public class isPerfectNo {
 
+//Perfect Number:- A number whose sum of its all divisors = number(itself) is called a perfect number.
+//Ex. 6 -> 1,2,3 -> 1+2+3 = 6 (Perfect Number)
+
   public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
      System.out.print("Enter Number: ");
@@ -33,9 +36,8 @@ public class isPerfectNo {
                     sum += rightDivisor;
                 }
             }
-        }
-        
-        return sum==num;
+        }      
+      return sum==num;
 
         //Method - 1:-
         // int sum =0;

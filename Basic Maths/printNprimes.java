@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+// a % b -> returns reminder of a/b
+// a/b -> returns quotient/answer/shesh of a/b.
+
+
 public  class printNprimes {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
@@ -24,3 +28,6 @@ public  class printNprimes {
         return true;
   }
 }
+
+
+

@@ -19,7 +19,7 @@ public class MinMax {
       //It helps when scanning an array without assuming the first element.
       int Min = Integer.MAX_VALUE; //Max stays 2147483647
       int Max = Integer.MIN_VALUE; //Min stays -2147483648
-      //So array values can replace them.
+      //So array values can replace them.  
 
       for(int i=0; i<size; i++){
         if(arr[i] < Min){
